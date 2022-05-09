@@ -30,5 +30,5 @@ In order to generate the same random data each time, the `Fakeish` object can be
 ```python
 f = Fakeish()
 f.seed(<int>)
-# generate data here
+# configure / generate data here
 ```

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="fakeish",
-    version="0.2.1",
+    version="0.3.0",
     packages=find_packages(),
     include_package_data=True,
     install_requires=["pyyaml"],
@@ -16,5 +16,5 @@ setup(
     description="Faker but fast and dumb instead of slow and smart",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    python_requires=">=3.8"
+    python_requires=">=3.5"
 )
